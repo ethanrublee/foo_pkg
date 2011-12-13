@@ -1,0 +1,18 @@
+Package: foo_pkg
+Version: 0.0.0
+Section: misc
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends}, cmake, make
+Build-Depends: debhelper (>= 7), cmake, gcc, make, python
+Description: A very simple package for catkin 
+Author: Ethan Rublee <erublee@willowgarage.com>
+Maintainer: Ethan Rublee <erublee@willowgarage.com>
+Homepage: http://www.ros.org
+
+Catkin-ProjectName: foo_pkg 
+Catkin-CopyrightType:  willowgarage
+Catkin-Depends:
+
+Catkin-DebRulesType: rules.em
+Catkin-ChangelogType: changelog.em
